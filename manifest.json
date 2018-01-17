@@ -1,12 +1,12 @@
 {
 "update_url": "https://clients2.google.com/service/update2/crx",
-	"name"					: "Settings Button Example"
+	"name"					: "Printer Settings Button Example"
 
 , 	"version"				: "2.1"
 
 ,	"manifest_version"		: 2
-,	"homepage_url"			: "https://github.com/mikewiluszatgoogle/Settings-Button-Extension-Example-for-Chrome"
-,	"description"			: "Example shortcut to Chrome settings page"
+,	"homepage_url"			: "https://github.com/mikewiluszatgoogle/Printer-Settings-Button-Example-for-Chrome"
+,	"description"			: "Example shortcut to Chrome printer settings page"
 
 ,	"icons"					:
 		{  "16"				: "icon.png"
@@ -19,7 +19,7 @@
 		}
 
 ,	"incognito"				: "spanning"
-,	"background"			: 
+,	"background"			:
 		{ "scripts": ["background.js"]
 		, "persistent" : false
 		}
